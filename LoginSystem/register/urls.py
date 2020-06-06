@@ -4,4 +4,5 @@ from .import views
 print("hh")
 urlpatterns = [
     path('',views.registerForm),
+    path('HH',views.hh),
 ]
